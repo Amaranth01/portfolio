@@ -9,7 +9,7 @@ module.exports = (env, argv) => {
 
     return {
         entry: {
-            front: './assets/js/app.ts',
+            front: './assets/js/app.js',
         },
         output: {
             path: path.resolve(__dirname, 'public/build'),
@@ -20,5 +20,3 @@ module.exports = (env, argv) => {
         ...configuration,
     }
 }
-
-
