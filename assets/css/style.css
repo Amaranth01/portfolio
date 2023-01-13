@@ -18,35 +18,6 @@ h1 {
     color: white;
     text-shadow: black 5px 5px;
 }
-/*Style menu*/
-nav {
-    margin-top: 0.5rem;
-    background-color: darkred;
-    font-size: 1.3rem;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem;
-}
-
-li {
-    list-style: none ;
-}
-
-li:hover {
-    background-color: red;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-nav > ul > li > a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 /*style intro*/
 
@@ -59,8 +30,61 @@ nav > ul > li > a {
 }
 
 #portrait {
-    float: right;
     margin-right: 15rem;
     width: 15rem;
-    margin-top: -5rem;
+    margin-top: -9rem;
+}
+ /* style arrows */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.arrow {
+    display: flex;
+    position: fixed;
+    background-color: darkred;
+    border-radius: 50%;
+}
+
+.down, .right, .left {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 0.5rem;
+}
+
+#arrowDown {
+    position: absolute;
+    bottom: 0;
+    top: 89%;
+    margin-left: 23rem;
+    width: 47rem;
+    height: 3rem;
+}
+
+.down {
+    rotate: 90deg;
+    margin-left: 23rem;
+}
+
+#arrowRight {
+    position: relative;
+    float: right;
+    margin-right: 0.5rem;
+}
+
+.left, .right {
+    margin-top: 8rem;
+}
+
+#arrowLeft, #arrowRight {
+    height: 23rem;
+    margin-left: 0.5rem;
+    margin-top: 6rem;
+}
+
+#link {
+    font-size: 2.5rem;
+    text-align: center;
 }
