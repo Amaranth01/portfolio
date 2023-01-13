@@ -30,9 +30,10 @@ h1 {
 }
 
 #portrait {
-    margin-right: 15rem;
-    width: 15rem;
-    margin-top: -9rem;
+    float: right;
+    margin-right: 13rem;
+    width: 20rem;
+    margin-top: -5rem;
 }
  /* style arrows */
 a {
@@ -47,17 +48,10 @@ a {
     border-radius: 50%;
 }
 
-.down, .right, .left {
-    text-align: center;
-    font-weight: bold;
-    font-size: 3.5rem;
-    padding: 0.5rem;
-}
-
-#arrowDown {
+.arrowDown {
     position: absolute;
     bottom: 0;
-    top: 89%;
+    top: 94%;
     margin-left: 23rem;
     width: 47rem;
     height: 3rem;
@@ -68,23 +62,44 @@ a {
     margin-left: 23rem;
 }
 
-#arrowRight {
+.arrowRight {
     position: relative;
     float: right;
     margin-right: 0.5rem;
 }
 
-.left, .right {
-    margin-top: 8rem;
-}
-
-#arrowLeft, #arrowRight {
+.arrowLeft, .arrowRight {
     height: 23rem;
     margin-left: 0.5rem;
     margin-top: 6rem;
 }
 
 #link {
+    margin-top: 1.5rem;
     font-size: 2.5rem;
     text-align: center;
+}
+
+#aboutMe {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 38rem;
+    margin-top: 5rem;
+    margin-left: 13rem;
+}
+
+#parcours, #project {
+    margin-top: 4.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#utils {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    margin-left: 13rem;
 }
